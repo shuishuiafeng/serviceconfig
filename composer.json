@@ -1,0 +1,33 @@
+{
+  "name": "doumiaoduo/serviceconfig",
+  "description": "manage service config file",
+  "keywords": ["yii2", "service config"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/shuishuiafeng/serviceconfig"
+  },
+  "authors": [
+    {
+      "name": "xiaofeng dong",
+      "email": "feng52l@sina.cn"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php":">=5.4.0",
+    "yiisoft/yii2":">=2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "serviceconfig\\": ""
+    }
+  },
+  "config":
+  {
+
+    "process-timeout":
+    1800
+
+  }
+}
